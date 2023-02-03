@@ -14,5 +14,28 @@ body {
 
 
 h1{
-    font-family: vars.$fontslab;
+    font-family: vars.$fontsans;
+    font-size: 3rem;
+    inline-size: 600px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    line-height: 3.3rem;
+    @media #{vars.$media-mobile-l}{
+        inline-size: 400px;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+    @media #{vars.$media-mobile-m}{
+      inline-size: 300px;
+      font-size: 2.3rem;
+      line-height: 2.5rem;
+    }
+    @media #{vars.$media-mobile-s}{
+      inline-size: 300px;
+      font-size: 2rem;
+      line-height: 2.3rem;
+    }
 }
