@@ -9,6 +9,9 @@
         height: 400vh;
         padding-top: 20px;
     }
+    @media #{vars.$media-mobile-s}{
+        height: 500vh;
+    }
 }
 
 .footerContent{
@@ -124,5 +127,8 @@
     }
     p{
         color: #fff;
+        @media #{vars.$media-mobile-s}{
+            font-size: .7rem;
+        }
     }
 }
