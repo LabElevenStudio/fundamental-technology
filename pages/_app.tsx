@@ -1,4 +1,5 @@
 import '@styles/globals.scss'
+import Layout from '@components/Layout'
 // import { Roboto_Slab, Source_Sans_Pro } from '@next/font/google'
 
 // const roboto: any = Roboto_Slab({
@@ -21,7 +22,9 @@ function Application({ Component, pageProps }) {
           font-family: ${roboto.style.fontFamily}, ${sansPro.style.fontFamily};
         }
       `}</style> */}
-     <Component {...pageProps} />
+      <Layout>
+      <Component {...pageProps} />
+     </Layout>
     </>
   )
 }
