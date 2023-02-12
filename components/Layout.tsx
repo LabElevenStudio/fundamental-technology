@@ -9,11 +9,11 @@ export default function Layout({ children }: {children: ReactNode}): ReactElemen
     <>
     <main className={Style.layoutWrapper}>
       <main>
-      <Navigation />
+        <Navigation />
         {children}
-    </main>
-      <Footer />
       </main>
+      <Footer />
+    </main>
     </>
   )
 }

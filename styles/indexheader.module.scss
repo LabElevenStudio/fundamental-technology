@@ -6,7 +6,11 @@
     height: 50vh;
     display: grid;
     place-items: center;
-    h1{
+    .subtitle{
+        color: #fff;
+        font-family: vars.$fontslab;
+        font-size: 1rem;
         text-transform: capitalize;
+        margin-top: -40px;
     }
 }

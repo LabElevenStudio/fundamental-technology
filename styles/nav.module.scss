@@ -1,21 +1,33 @@
+@use './vars';
+
 
 
 .navWrapper{
     width: 100%;
     height: auto;
-    display: flex;
+    display: grid;
+    place-items: center;
+    ul{
+        display: flex;
+        width: 75%;
+        height: 60px;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        .navItems{
+            width: 60%;
+        }
+    }
 }
 
 
-// .navWrapper ul{
-//     display: flex;
-//     width: 100%;
-//     height: 80px;
-//     justify-content: space-around;
-//     align-items: center;
-//     list-style: none;
-//     .navItems{
-//         display: flex;
-//         width: 60%;
-//     }
-// }
+.navItems > ul{
+    width: 60%;
+    display: flex;
+    a{
+        color: #000;
+        text-decoration: none;
+        font-family: vars.$fontsans;
+        font-size: .86rem;
+    }
+}

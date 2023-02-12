@@ -27,7 +27,7 @@ export default function Footer() {
             <label htmlFor="footer-contact">
               <p>Stay up to date on the latest from Fundamental Technology</p>
               <span className={Styles.formInput}>
-                <input type="text" id="footer-contact" />
+                <input type="text" id="footer-contact" placeholder="Enter Your Email Address" />
                 <button type="submit"> Submit </button>
               </span>
             </label>

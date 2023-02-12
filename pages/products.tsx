@@ -1,0 +1,202 @@
+import Head from 'next/head'
+import TextButton from '@components/TextButton'
+import Header from '@components/Header'
+import ReturnNav from '@components/ReturnNav'
+
+const Products = () => {
+    return(
+        <main>
+            <Head>
+                <title>Fundamental Technology | Products</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Header title="products" img="images/headersproduct-hero.png" />
+            <section>
+                <div>
+                    <h2>specialties</h2>
+                    <TextButton children="view more" path="/"/>
+                </div>
+                <section>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section>
+                <div>
+                    <h2>specialties</h2>
+                    <TextButton children="view more" path="/"/>
+                </div>
+                <section>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section>
+                <div>
+                    <h2>specialties</h2>
+                    <TextButton children="view more" path="/"/>
+                </div>
+                <section>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section>
+                <div>
+                    <h2>specialties</h2>
+                    <TextButton children="view more" path="/"/>
+                </div>
+                <section>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section>
+                <div>
+                    <h2>specialties</h2>
+                    <TextButton children="view more" path="/"/>
+                </div>
+                <section>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section>
+                <div>
+                    <h2>specialties</h2>
+                    <TextButton children="view more" path="/"/>
+                </div>
+                <section>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section>
+                <div>
+                    <h2>specialties</h2>
+                    <TextButton children="view more" path="/"/>
+                </div>
+                <section>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="" alt="" />
+                        <figcaption>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime fugiat temporibus accusamus tenetur amet eligendi magnam neque facere, quibusdam eaque, ullam porro distinctio, impedit quaerat! Hic mollitia vero eos!</p>
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+            <ReturnNav />
+        </main>
+    )
+}
+
+
+export default Products

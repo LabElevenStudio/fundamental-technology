@@ -1,0 +1,33 @@
+@use './vars';
+
+
+.headerBtns{
+    margin-bottom: 30px;
+    a:last-child{
+        margin-left:20px;
+    }
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.specialization{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    article{
+        width: 100%;
+        h2{
+            color: vars.$textcolor;
+            font-family: vars.$fontslab
+        }
+    }
+}
