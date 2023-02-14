@@ -1,5 +1,5 @@
 import Styles from '@styles/footer.module.scss'
-import {FaFacebookF, FaTwitter, FaInstagram} from 'react-icons/fa'
+import {FaFacebookF, FaTwitter, FaInstagram, FaEnvelope} from 'react-icons/fa'
 
 
 
@@ -25,9 +25,9 @@ export default function Footer() {
           </div>
           <div className={Styles.footerNav}>
             <label htmlFor="footer-contact">
-              <p>Stay up to date on the latest from Fundamental Technology</p>
+              <p><span><FaEnvelope /></span>Stay up to date on the latest from Fundamental Technology</p>
               <span className={Styles.formInput}>
-                <input type="text" id="footer-contact" placeholder="Enter Your Email Address" />
+                <input type="email" id="footer-contact" placeholder="Enter Your Email Address" />
                 <button type="submit"> Submit </button>
               </span>
             </label>

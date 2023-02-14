@@ -9,7 +9,9 @@ const Nav = () => {
         <nav className={Styles.navWrapper}>
             <ul>
                 <li className={Styles.logo}>
+                    <Link href="/" >
                     <img src="/images/logo-colored.svg" alt="funda tech logo" />
+                    </Link>
                 </li>
                 <li className={Styles.navItems}>
                     <ul>

@@ -4,8 +4,10 @@
 .layoutWrapper{
     display: flex;
     flex-direction: column;
-    main{
-        flex: 1;
-        margin-bottom: 30px;
-    }
+    min-height: 100vh;
+}
+
+.innerWrapper{
+    flex: 1;
+    // margin-bottom: 60vh;
 }

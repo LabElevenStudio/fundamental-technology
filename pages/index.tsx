@@ -37,56 +37,48 @@ export default function Home() {
             </article>
             <section className={Styles.grid}>
               <figure>
-                <img src="" alt="" />
+                <img src="/images/specialties.png" alt="specialties paint" />
                 <figcaption>specialities paints</figcaption>
               </figure>
               <figure>
-                <img src="" alt="" />
+                <img src="/images/emulsion.png" alt="emulsion paint" />
                 <figcaption>Emulsion paints</figcaption>
               </figure>
               <figure>
-                <img src="" alt="" />
+                <img src="/images/enamel.png" alt="enamel paint" />
                 <figcaption>Enamel paints</figcaption>
               </figure>
               <figure>
-                <img src="" alt="" />
+                <img src="/images/industrial.png" alt="industrial paint" />
                 <figcaption>industrial marine paints</figcaption>
               </figure>
               <figure>
-                <img src="" alt="" />
+                <img src="/images/roadmarking.png" alt="road marking" />
                 <figcaption>road marking paints</figcaption>
               </figure>
               <figure>
-                <img src="" alt="" />
+                <img src="/images/textured.png" alt="textured" />
                 <figcaption>textured paints</figcaption>
               </figure>
             </section>
           </article>
           <section className={Styles.products}>
             <article>
+              <h2>Our products</h2>
               <p>
-                premium quality paints require expertise in order to meet
+                Premium quality paints require expertise in order to meet
                 industrial and marine customers' specifications. At Fundamental
                 Technologies, we manufacture a wide range of special quality
                 paints for both domestic and industrial uses.
               </p>
-              <details>
-                <summary className={Styles.viewMore}>view more</summary>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Facere officiis velit obcaecati consectetur fuga, dolore hic
-                  sequi saepe veniam minus veritatis repudiandae praesentium!
-                  Ipsum optio doloremque error excepturi aut nobis unde debitis
-                  eveniet aperiam repellat quidem, dicta tenetur aliquam quis
-                  explicabo voluptatem tempora ad, magnam nostrum minus
-                  similique fugiat! Quibusdam?
-                </p>
-              </details>
+              <LinkButton path="./products" btnType="three">
+                View more
+              </LinkButton>
             </article>
             <div className={Styles.paints}>
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <img className={Styles.bluepaint} src="/images/paint-blue.png" alt="a bucket of blue paint " />
+              <img src="/images/paint-orange.png" alt="a bucket of orange paint" />
+              <img className={Styles.greenpaint} src="/images/paint-green.png" alt="a bucket of green paint" />
             </div>
           </section>
           <section className={Styles.testimonials}></section>
