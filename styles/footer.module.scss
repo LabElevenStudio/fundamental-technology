@@ -52,6 +52,7 @@
 .footerNav{
     label{
         color: #fff;
+        font-family: vars.$fontsans;
         @media #{vars.$media-mobile-l}{
             inline-size: 300px;
             word-wrap: break-word;
@@ -114,11 +115,13 @@
             color: #fff;
             text-align: center;
             font-weight: 600;
+            font-family: vars.$fontsans;
         }
         dd{
             color: #fff;
             text-align: left;
             font-weight: 400;
+            font-family: vars.$fontslab;
         }
     }
 }
@@ -135,6 +138,8 @@
     }
     p{
         color: #fff;
+        font-family: vars.$fontslab;
+        font-size: .83rem;
         @media #{vars.$media-mobile-s}{
             font-size: .7rem;
         }

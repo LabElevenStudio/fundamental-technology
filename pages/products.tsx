@@ -13,7 +13,7 @@ const Products = () => {
             <Header title="products" img="images/headersproduct-hero.png" />
             <section>
                 <div>
-                    <h2>specialties</h2>
+                    <h2>specialties paints</h2>
                     <TextButton children="view more" path="/"/>
                 </div>
                 <section>
@@ -39,7 +39,7 @@ const Products = () => {
             </section>
             <section>
                 <div>
-                    <h2>specialties</h2>
+                    <h2>emulsion paints</h2>
                     <TextButton children="view more" path="/"/>
                 </div>
                 <section>
@@ -65,7 +65,7 @@ const Products = () => {
             </section>
             <section>
                 <div>
-                    <h2>specialties</h2>
+                    <h2>industrial and marine</h2>
                     <TextButton children="view more" path="/"/>
                 </div>
                 <section>
@@ -91,7 +91,7 @@ const Products = () => {
             </section>
             <section>
                 <div>
-                    <h2>specialties</h2>
+                    <h2>enamel paints</h2>
                     <TextButton children="view more" path="/"/>
                 </div>
                 <section>
@@ -117,7 +117,7 @@ const Products = () => {
             </section>
             <section>
                 <div>
-                    <h2>specialties</h2>
+                    <h2>road marking paints</h2>
                     <TextButton children="view more" path="/"/>
                 </div>
                 <section>
@@ -143,7 +143,7 @@ const Products = () => {
             </section>
             <section>
                 <div>
-                    <h2>specialties</h2>
+                    <h2>textured paints</h2>
                     <TextButton children="view more" path="/"/>
                 </div>
                 <section>

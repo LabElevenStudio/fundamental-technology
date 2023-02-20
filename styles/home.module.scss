@@ -45,6 +45,7 @@
             max-inline-size: 600px;
             word-wrap: break-word;
             color: vars.$textcolor;
+            font-family: vars.$fontslab;
         }
     }
 }
@@ -66,6 +67,7 @@
         text-align: center;
         text-transform: capitalize;
         font-weight: 600;
+        font-family: vars.$fontslab;
     }
 }
 
@@ -83,7 +85,8 @@
         p{
             max-inline-size: 450px;
             color: vars.$textcolor;
-            line-height: vars.$lh-small
+            line-height: vars.$lh-small;
+            font-family: vars.$fontslab;
         }
     }
 }

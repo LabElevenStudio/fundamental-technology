@@ -1,5 +1,6 @@
 import Styles from '@styles/footer.module.scss'
 import {FaFacebookF, FaTwitter, FaInstagram, FaEnvelope} from 'react-icons/fa'
+import TextButton from '@components/TextButton'
 
 
 
@@ -34,15 +35,23 @@ export default function Footer() {
             <nav className={Styles.footerNavInner}>
               <dl>
                 <dt>Support</dt>
-                <dd>Contact Us</dd>
+                <dd>
+                  <TextButton path="/contacat">Contact Us</TextButton>
+                  </dd>
                 <dd>FAQ</dd>
                 <dd>Consultation</dd>
               </dl>
               <dl>
                 <dt>Fundamental Technology</dt>
-                <dd>About Us</dd>
-                <dd>Our Products</dd>
-                <dd>Newsroom</dd>
+                <dd>
+                  <TextButton path="/about">About Us</TextButton >
+                </dd>
+                <dd>
+                  <TextButton path="/products">Our Products</TextButton>
+                  </dd>
+                <dd>
+                  Newsroom
+                  </dd>
               </dl>
             </nav>
           </div>

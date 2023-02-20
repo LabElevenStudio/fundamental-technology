@@ -12,6 +12,8 @@
     place-items: center;
     span{
         color: vars.$base;
+        font-family: vars.$fontsans;
+        text-transform: capitalize;
     }
 }
 
@@ -26,6 +28,8 @@
     place-items: center;
     span{
         color: #fff;
+        font-family: vars.$fontsans;
+        text-transform: capitalize;
     }
 }
 
@@ -41,5 +45,7 @@
     place-items: center;
     span{
         color: #000;
+        font-family: vars.$fontsans;
+        text-transform: capitalize;
     }
 }

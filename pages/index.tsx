@@ -3,6 +3,7 @@ import Header from "@components/IndexHeader";
 import LinkButton from "@components/LinkButton";
 import Styles from "@styles/home.module.scss";
 
+
 export default function Home() {
   return (
     <main className="container">
@@ -86,3 +87,6 @@ export default function Home() {
       </main>
   );
 }
+
+
+// export async function getStaticProps() {}
